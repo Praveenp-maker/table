@@ -1,0 +1,3 @@
+0:0:0:0:0:0:0:1 - - [01/Nov/2022:14:45:24 +0530] "GET / HTTP/1.1" 200 619 http-bio-8080-exec-1 686
+0:0:0:0:0:0:0:1 - - [01/Nov/2022:14:45:24 +0530] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-3 1
+0:0:0:0:0:0:0:1 - - [01/Nov/2022:14:45:25 +0530] "GET /hello?userName=&userPass= HTTP/1.1" 500 1341 http-bio-8080-exec-4 6
