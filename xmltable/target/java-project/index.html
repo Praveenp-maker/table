@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <script src="hello.js"></script>
+</head>
+
+<body>
+<style>
+body {
+    background-color: lightblue;
+
+}
+</style>
+
+<h2>Demo JavaScript in Head</h2>
+
+<p id="demo">A Paragraph.</p>
+<p>This property specifies what kind of border to display:</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<button type="button" onclick="getAll()">get all</button>
+
+<button type="button" onclick="loadDoc()">get</button>
+
+ <button type="button" onclick="displayItems()">table</button> 
+
+
+
+<!-- //<button type="button" onclick="save()">save</button> -->
+<br> <hr>
+<center>
+id:<input type="text" name="id" ><br><br>
+title:<input type="text" name="title" id = "title"><br><br>
+author:<input type="text" name="author" id = "author"><br><br>
+price:<input type="text" name="price"  id = "price"><br><br>
+<!-- <button onclick = "save()">Save me</button> -->
+<button type="submit" id="myBtn" onclick="saveORupdateItem()">Save</button>
+</center>
+<hr>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th>price</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <tbody id="goes"></tbody>
+</table>
+<!-- <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button> -->
+
+
+
+<!-- <script>
+window.alert(5 + 6);
+console.log(5 + 6);
+</script> -->
+
+<!-- <button onclick="window.print()">Print this page</button> -->
+
+</body>
+
+</html>
